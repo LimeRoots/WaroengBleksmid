@@ -2,22 +2,22 @@ package WaroengBleksmid;
     public class item{
         private String nama,deskripsi;
         private int hargaJual,jumlah;
-        public item(String nama,int hargaJual,String deskripsi,int jumlah){
+        public item(String nama,int hargaJual,int jumlah, String deskripsi){
             this.nama =nama;
             this.hargaJual=hargaJual; 
             this.deskripsi = deskripsi;
             this.jumlah = jumlah;
         }
-        public String ambilNama(){
+        public String ambilNamaItem(){
             return nama;
         }
-        public int ambilHargaJual(){
+        public int ambilHargaJualItem(){
             return hargaJual;
         }
         public String ambilDeskripsi(){
             return deskripsi;
         }
-        public int ambilJumlah(){
+        public int ambilJumlahItem(){
             return jumlah;
         }
         public void tambahJumlahItem(int jumlah){

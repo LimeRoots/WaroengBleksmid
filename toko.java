@@ -3,6 +3,7 @@ package WaroengBleksmid;
         private int level;
         private int expSekarang;
         private int expNaikLevel;
+        private int qwer;
 
         public void toko(){
             this.level = 1;
@@ -23,6 +24,10 @@ package WaroengBleksmid;
 
         private void daftarJualan(){
             
+        }
+        public void printStatus(){
+            System.out.println("Uang toko\t:\t"+ this.qwer);
+            System.out.println("Level toko\t:\t"+ this.level);
         }
 }
 

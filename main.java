@@ -1,9 +1,12 @@
 package WaroengBleksmid;
     public class main{
         public static void main(String[] args) {
-            user user = new user();
-            user.lihatInventoryUser();
-            user.lihatSupply();
+            story story = new story();
+            mainMenu mainMenu = new mainMenu();
+            System.out.println("Blacksmith: The last forge");
+            story.skipStory();
+            mainMenu.menuAwal();
+            mainMenu.pilihan();
         }
           
 }
