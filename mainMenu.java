@@ -21,6 +21,7 @@ import java.util.Scanner;
             p = input.nextInt();
             while (s){
                 switch (p){
+
                     case 5:
                         inventory();
                         break;
@@ -31,6 +32,7 @@ import java.util.Scanner;
                     break;
 
                     default:
+                        s = false;
                         break;
                 }
             }
