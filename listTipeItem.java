@@ -37,7 +37,7 @@ package WaroengBleksmid;
                 new item("Silver Crossbow", 1,0,"Senjata dengan sihir tersembunyi, mengirimkan pesan malam kepada musuh yang bersembunyi."),
                 new item("Diamond Crossbow", 1,0,"Penguasa medan perang yang bercahaya, melesatkan anak panah bagaikan meteorit."),
 
-                new item("Staff", 1,0,""),
+                new item("Staff", 1,0,"pilar takdir yang mampu membelah langit dan membangkitkan badai dari bisikan kecilnya, seolah menggenggam kekuatan semesta dalam genggaman seorang manusia."),
             };
     }
 }
