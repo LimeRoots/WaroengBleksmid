@@ -1,35 +1,7 @@
 package WaroengBleksmid;
 import java.util.Scanner;
-<<<<<<< HEAD
-public class mainMenu {
-    Scanner input = new Scanner(System.in);
-    toko toko = new toko();
-    Inventory inventory = new Inventory();
-    boolean s = true;
-    int pilihan;
-    public void tampilanAwal(){
-        System.out.println("Valenvorg Blacksmith");
-        System.out.println("1. Buka toko");
-        System.out.println("2. Display barang");
-        System.out.println("3. Crafting");
-        System.out.println("4. Beli ore");
-        System.out.println("5. Inventory");
-        System.out.println("6. Status");
-        System.out.print("\nMasukan anda: ");
-    }
-    public void statusToko(){
-        toko.status();
-        inventory.status();
-    }
-    public void masukan(){
-        pilihan = input.nextInt();
-        while (s) {
-            switch (pilihan) {
-                case 6:
-                    statusToko();
-                    tampilanAwal();
-                    masukan();
-=======
+
+
     public class mainMenu{
         toko toko = new toko();
         Inventory Inventory = new Inventory();
@@ -54,6 +26,8 @@ public class mainMenu {
 
                     case 5:
                         inventory();
+                        menuAwal();
+                        pilihan();
                         break;
                     case 6:
                     status();
@@ -69,7 +43,7 @@ public class mainMenu {
         }
 
         public void status(){
-            toko.printStatus();
+            toko.status();
         }
 
         public void inventory(){
@@ -95,12 +69,11 @@ public class mainMenu {
                     Inventory.lihatInventoryMaterial();
                     menuAwal();
                     pilihan();
->>>>>>> 9eff20428c82c8c93379858023c303cdf15c62b8
                     break;
             }
         }
     }
-}
+
 
 
                     
