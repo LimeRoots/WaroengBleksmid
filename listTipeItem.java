@@ -1,13 +1,14 @@
 package WaroengBleksmid;
-public class listTipeItem {
-    public item[] daftarListItem;
-    public listTipeItem(){
+    public class listTipeItem {
+        public item[] daftarListItem;
+
+    public listTipeItem() {
         this.daftarListItem = new item[]{
                 new item("Copper Dagger", 1,0,"Sebuah belati pendek dengan bilah tajam yang dirancang untuk serangan cepat dan akurat. Cocok digunakan oleh petualang yang mengandalkan kecepatan dan kelincahan."),
                 new item("Iron Dagger", 1,0,"Sebuah belati pendek dengan bilah tajam yang dirancang untuk serangan cepat dan akurat. Cocok digunakan oleh petualang yang mengandalkan kecepatan dan kelincahan."),
                 new item("Silver Dagger", 1,0,"Sebuah belati pendek dengan bilah tajam yang dirancang untuk serangan cepat dan akurat. Cocok digunakan oleh petualang yang mengandalkan kecepatan dan kelincahan."),
                 new item("Diamond Dagger", 1,0,"Sebuah belati pendek dengan bilah tajam yang dirancang untuk serangan cepat dan akurat. Cocok digunakan oleh petualang yang mengandalkan kecepatan dan kelincahan."),
-
+               
                 new item("Copper Sword", 1,0,"Sebuah belati pendek dengan bilah tajam yang dirancang untuk serangan cepat dan akurat. Cocok digunakan oleh petualang yang mengandalkan kecepatan dan kelincahan."),
                 new item("Iron Sword", 1,0,"Sebuah belati pendek dengan bilah tajam yang dirancang untuk serangan cepat dan akurat. Cocok digunakan oleh petualang yang mengandalkan kecepatan dan kelincahan."),
                 new item("Silver Sword", 1,0,"Sebuah belati pendek dengan bilah tajam yang dirancang untuk serangan cepat dan akurat. Cocok digunakan oleh petualang yang mengandalkan kecepatan dan kelincahan."),
@@ -27,7 +28,7 @@ public class listTipeItem {
                 new item("Iron Mace", 1,0,""),
                 new item("Silver Mace", 1,0,""),
                 new item("Diamond Mace", 1,0,""),
-
+                 
                 new item("Bow", 1,0,""),
                 new item("Arrow", 1,0,""),
 
@@ -37,6 +38,11 @@ public class listTipeItem {
                 new item("Diamond Crossbow", 1,0,""),
 
                 new item("Staff", 1,0,""),
-      };
+            };
+    }
 }
-}
+
+                    
+
+
+                    

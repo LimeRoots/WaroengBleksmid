@@ -5,8 +5,8 @@ package WaroengBleksmid;
             mainMenu mainMenu = new mainMenu();
             System.out.println("Blacksmith: The last forge");
             story.skipStory();
-            mainMenu.menuAwal();
-            mainMenu.pilihan();
+            mainMenu.tampilanAwal();
+            mainMenu.masukan();
         }
           
 }

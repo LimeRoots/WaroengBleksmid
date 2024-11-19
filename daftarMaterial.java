@@ -21,9 +21,10 @@ package WaroengBleksmid;
             this.jumlahMaterial = (int)(Math.random() * 7) + 2;
         }
         public void tambahJumlahMaterial(int jumlah){
-            this.jumlahMaterial = jumlah;
+            this.jumlahMaterial += jumlah;
 
         }
+        public void kurangJumlahMaterial(int jumlah){
+            this.jumlahMaterial -= jumlah;
+        }
 }
-
-                    

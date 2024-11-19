@@ -25,11 +25,13 @@ package WaroengBleksmid;
         private void daftarJualan(){
             
         }
-        public void printStatus(){
+        public void status(){
             System.out.println("Uang toko\t:\t"+ this.qwer);
             System.out.println("Level toko\t:\t"+ this.level);
         }
+        
 }
+
 
 
                     

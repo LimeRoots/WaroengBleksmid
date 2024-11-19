@@ -8,7 +8,7 @@ public class Supplier {
     private Random random;
         public Supplier() {
             listMaterial = new listMaterial();
-            stokMaterial = new daftarMaterial[5];
+            stokMaterial = new daftarMaterial[7];
             random = new Random();
             stokUlang();
         }

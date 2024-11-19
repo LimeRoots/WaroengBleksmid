@@ -2,7 +2,7 @@ package WaroengBleksmid;
     public class item{
         private String nama,deskripsi;
         private int hargaJual,jumlah;
-        public item(String nama,int hargaJual,int jumlah, String deskripsi){
+        public item(String nama,int hargaJual,int jumlah,String deskripsi){
             this.nama =nama;
             this.hargaJual=hargaJual; 
             this.deskripsi = deskripsi;
@@ -14,15 +14,18 @@ package WaroengBleksmid;
         public int ambilHargaJualItem(){
             return hargaJual;
         }
-        public String ambilDeskripsi(){
+        public String ambilDeskripsiItem(){
             return deskripsi;
         }
         public int ambilJumlahItem(){
             return jumlah;
         }
         public void tambahJumlahItem(int jumlah){
-            this.jumlah = jumlah;
+            this.jumlah += jumlah;
 
+        }
+        public void kurangJumlahItem(int jumlah){
+            this.jumlah -= jumlah;
         }
 }
 

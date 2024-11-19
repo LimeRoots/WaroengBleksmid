@@ -11,7 +11,16 @@ package WaroengBleksmid;
                 new daftarMaterial("String",1,0),
                 new daftarMaterial("Crystal",15,0)
             };
+        }
+        public daftarMaterial cariMaterial(String materialName) {
+            for (daftarMaterial material : daftarListMaterial) {
+                if (material.ambilNamaMaterial().equalsIgnoreCase(materialName)) {
+                    return material; 
+                }
+            }
+            return null; 
+        }
     }
-    }
+
 
                     
