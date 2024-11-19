@@ -59,6 +59,7 @@ package WaroengBleksmid;
 
                 new item("Bow", 1,0,"Busur yang terbuat dari bisikan pepohonan, melontarkan anak panah seperti angin musim gugur."),
                 new item("Arrow", 1,0,"Panah tajam bagaikan mata elang, melesat ke tujuan dengan ketepatan sempurna."),
+
                 new item("Copper Crossbow", 1,0,"Alat perang yang terbuat dari tekad pemula, cepat dan andal dalam memburu musuh."),
                 new item("Iron Crossbow", 1,0,"Penembak jarak jauh dengan kekuatan yang tak goyah, melindungi dari serangan mendadak."),
                 new item("Silver Crossbow", 1,0,"Senjata dengan sihir tersembunyi, mengirimkan pesan malam kepada musuh yang bersembunyi."),
