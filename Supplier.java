@@ -47,4 +47,26 @@ public class Supplier {
                 }
             }
         }
+        public void beliStok(String nama, int jumlah, Inventory inventory, user user) {
+            for (daftarMaterial material : stokMaterial) {
+                if (material != null && material.ambilNamaMaterial().equals(nama)) {
+                    int totalHarga = material.ambilHargaMaterial() * jumlah; 
+                    if (material.ambilJumlahMaterial() >= jumlah) {
+                        if (user.punyaCukupDuit(totalHarga)) { 
+                            material.kurangJumlahMaterial(jumlah);
+                            inventory.tambahItemMaterial(nama, jumlah);
+                            user.kurangUang(totalHarga); 
+                            System.out.println("Berhasil membeli " + jumlah + " dari " + nama);
+                            System.out.println("Sisa uang Anda: " + user.lihatUang());
+                        } else {
+                            System.out.println("Uang Anda tidak cukup untuk membeli " + jumlah + " dari " + nama + ". Sisa uang: " + user.lihatUang());
+                        }
+                    } else {
+                        System.out.println("Stok tidak cukup untuk " + nama + ". Hanya ada " + material.ambilJumlahMaterial() + " tersisa.");
+                    }
+                    return;
+                }
+            }
+            System.out.println("Material " + nama + " tidak ditemukan.");
+        }
     }

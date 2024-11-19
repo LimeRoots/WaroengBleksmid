@@ -1,7 +1,7 @@
 package WaroengBleksmid;
     public class item{
         private String nama,deskripsi;
-        private int hargaJual,jumlah;
+        private int hargaJual,jumlah,statusLevel;
         public item(String nama,int hargaJual,int jumlah,String deskripsi){
             this.nama =nama;
             this.hargaJual=hargaJual; 

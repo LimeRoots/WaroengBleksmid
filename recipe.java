@@ -3,19 +3,24 @@ package WaroengBleksmid;
         private String nama;
         private String[] material;
         private int[] kuantitas;
-        public recipe(String nama, String[] material, int[] kuantitas){
+        private int statusLevel;
+        public recipe(String nama, String[] material, int[] kuantitas,int level){
             this.nama = nama;
             this.material =material;
             this.kuantitas = kuantitas;
+            this.statusLevel =level;
     }
         public String ambilNamaResep(){
-            return nama;
+            return this.nama;
         }
         public String[] ambilMaterialResep(){
-            return material;
+            return this.material;
         }
         public int[] ambilKuantitasMaterialResep(){
-            return kuantitas;
+            return this.kuantitas;
+        }
+        public int ambilStatusLevelResep(){
+            return this.statusLevel;
         }
 }
 

@@ -1,11 +1,11 @@
 package WaroengBleksmid;
     public class toko{
-        private int level;
+        private int level ;
         private int expSekarang;
         private int expNaikLevel;
         private int qwer;
 
-        public void toko(){
+        public toko(){
             this.level = 1;
             this.expSekarang = 0;
             this.expNaikLevel = 100;
@@ -17,7 +17,6 @@ package WaroengBleksmid;
             expNaikLevel *= level;
             System.out.println("Selamat Anda Naik Level!!!!!!!!!!!!!!");
         }
-
         private int expPerNaikLevel(){
             return (int) (expNaikLevel * 2);
         }
@@ -29,7 +28,9 @@ package WaroengBleksmid;
             System.out.println("Uang toko\t:\t"+ this.qwer);
             System.out.println("Level toko\t:\t"+ this.level);
         }
-        
+        public int ambilLevelToko(){
+            return this.level;
+        }
 }
 
 
