@@ -7,6 +7,7 @@ package WaroengBleksmid;
             story.skipStory();
             mainMenu.menuAwal();
             mainMenu.pilihan();
+
         }
           
 }

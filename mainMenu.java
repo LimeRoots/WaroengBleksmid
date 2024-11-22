@@ -56,6 +56,8 @@ public class mainMenu{
                     }
                     user.tampilkanVarianResepUser(jenis);
                     break;
+                case 4:
+
                 case 5:
                     inventory();
                     menuAwal();
@@ -67,12 +69,20 @@ public class mainMenu{
                 pilihan();
                 break;
 
+                case 7:
+
+                    menuSupply();
+
+
+
                 default:
                     s = false;
                     break;
             }
         }
     }
+
+    public void gathering(){user.ambilStatusToko();}
 
     public void status(){
         user.ambilStatusToko();
@@ -103,6 +113,9 @@ public class mainMenu{
                 pilihan();
                 break;
         }
+    }
+    public void menuSupply(){
+        user.menuSupply();
     }
 }
 

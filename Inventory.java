@@ -34,7 +34,7 @@ package WaroengBleksmid;
             }
         }
         public void tambahItemSenjata(String tipe,int jumlah){
-            item tambahSenjata = new item(tipe,0,jumlah,"");
+            item tambahSenjata = new item(tipe,0,jumlah,0,"");
             for (item a : listTipeItem.daftarListItem){
                 if (a.ambilNamaItem().equals(tambahSenjata.ambilNamaItem())){
                      a.tambahJumlahItem (tambahSenjata.ambilJumlahItem());
@@ -42,7 +42,7 @@ package WaroengBleksmid;
             }
         }
         public void kurangItemSenjata(String tipe, int jumlah){
-            item kurangSenjata = new item(tipe,0,jumlah,"");
+            item kurangSenjata = new item(tipe,0,jumlah,0,"");
             for (item a : listTipeItem.daftarListItem){
                 if (a.ambilNamaItem().equals(kurangSenjata.ambilNamaItem())){
                      a.kurangJumlahItem (kurangSenjata.ambilJumlahItem());

@@ -27,4 +27,5 @@ package WaroengBleksmid;
         public void kurangJumlahMaterial(int jumlah){
             this.jumlahMaterial -= jumlah;
         }
+
 }

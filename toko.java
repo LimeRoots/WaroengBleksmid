@@ -4,6 +4,7 @@ package WaroengBleksmid;
         private int expSekarang;
         private int expNaikLevel;
         private int qwer;
+        private int energi;
 
         public toko(){
             this.level = 1;

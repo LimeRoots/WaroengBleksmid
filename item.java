@@ -1,11 +1,12 @@
 package WaroengBleksmid;
     public class item{
         private String nama,deskripsi;
-        private int hargaJual,jumlah,statusLevel;
-        public item(String nama,int hargaJual,int jumlah,String deskripsi){
+        private int hargaJual,jumlah,statusLevel, exp;
+        public item(String nama,int hargaJual,int jumlah, int exp, String deskripsi){
             this.nama =nama;
             this.hargaJual=hargaJual; 
             this.deskripsi = deskripsi;
+            this.exp = exp;
             this.jumlah = jumlah;
         }
         public String ambilNamaItem(){
@@ -27,6 +28,7 @@ package WaroengBleksmid;
         public void kurangJumlahItem(int jumlah){
             this.jumlah -= jumlah;
         }
+        
 }
 
 
