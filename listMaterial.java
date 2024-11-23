@@ -1,26 +1,29 @@
 package WaroengBleksmid;
+
     public class listMaterial {
-        public daftarMaterial[] daftarListMaterial;
+        public Material[] daftarListMaterial;
+        
         public listMaterial(){
-            this.daftarListMaterial = new daftarMaterial[]{
-                new daftarMaterial("Wood", 1,0),
-                new daftarMaterial("Copper", 3,0),
-                new daftarMaterial("Iron", 5,0),
-                new daftarMaterial("Silver", 6,0),
-                new daftarMaterial("Diamond", 8,0),
-                new daftarMaterial("String",1,0),
-                new daftarMaterial("Crystal",15,0)
+            this.daftarListMaterial = new Material[]{
+                new Material("Wood", 1,0),
+                new Material("Copper", 3,0),
+                new Material("Iron", 5,0),
+                new Material("Silver", 6,0),
+                new Material("Diamond", 8,0),
+                new Material("String",1,0),
+                new Material("Crystal",15,0)
             };
         }
-        public daftarMaterial cariMaterial(String materialName) {
-            for (daftarMaterial material : daftarListMaterial) {
+        
+        public Material cariMaterial(String materialName) {
+            for (Material material : daftarListMaterial) {
                 if (material.ambilNamaMaterial().equalsIgnoreCase(materialName)) {
                     return material; 
                 }
             }
+            
             return null; 
         }
-
     }
 
 

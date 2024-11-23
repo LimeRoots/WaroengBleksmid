@@ -38,7 +38,11 @@ public class listTipeItem {
                 new item("Silver Crossbow", 1, 0, 0, "Senjata dengan sihir tersembunyi, mengirimkan pesan malam kepada musuh yang bersembunyi."),
                 new item("Diamond Crossbow", 1, 0, 0, "Penguasa medan perang yang bercahaya, melesatkan anak panah bagaikan meteorit."),
 
-                new item("Staff", 1, 0, 0, "Tongkat yang menyimpan rahasia dunia, mengalirkan kekuatan para bijak dari zaman yang hilang."),
-        };
+                new item("Staff", 1, 0, 0, "Tongkat yang menyimpan rahasia dunia, mengalirkan kekuatan para bijak dari zaman yang hilang."),};
     }
 }
+
+                    
+
+
+                    

@@ -1,9 +1,10 @@
 package WaroengBleksmid;
-    public class daftarMaterial {
+
+    public class Material {
         private String nama;
         private int hargaBeli,jumlahMaterial;
         
-        public daftarMaterial(String nama,int hargaBeli,int jumlahMaterial){
+        public Material(String nama,int hargaBeli,int jumlahMaterial){
             this.nama = nama;
             this.hargaBeli = hargaBeli;
             this.jumlahMaterial =jumlahMaterial;
@@ -22,7 +23,7 @@ package WaroengBleksmid;
         }
         
         public void jumlahStokRandom(){
-            this.jumlahMaterial = (int)((Math.random() * 7) + 2);
+            this.jumlahMaterial = (int)(Math.random() * 7) + 2;
         }
         
         public void tambahJumlahMaterial(int jumlah){
